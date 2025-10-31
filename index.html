@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Consulta del Clima</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="contenedor">
+    <h1>🌤️ Consulta el clima de tu ciudad</h1>
+
+    <div class="buscador">
+      <input type="text" id="ciudad" placeholder="Escribe una ciudad...">
+      <button onclick="obtenerClima()">Consultar</button>
+    </div>
+
+    <div id="resultado" class="tarjeta">
+      <p>Introduce una ciudad y presiona <strong>Consultar</strong>.</p>
+    </div>
+  </div>
+
+  <footer>
+    <p>Desarrollado por <strong>Julián Buitrago</strong> — OpenWeather API 🌍</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
