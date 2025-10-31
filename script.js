@@ -3,6 +3,7 @@ const API_KEY = "ad0c425727598bacc3ba229cd7211efb";
 
 function obtenerClima() {
   const ciudad = document.getElementById("ciudad").value.trim();
+  
   const resultado = document.getElementById("resultado");
 
   if (!ciudad) {
