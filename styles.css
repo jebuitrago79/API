@@ -11,6 +11,8 @@ body {
   align-items: center;
 }
 
+
+
 /* Contenedor principal */
 .contenedor {
   text-align: center;
@@ -20,9 +22,12 @@ body {
   padding: 40px;
   width: 350px;
   box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+
 }
 
-/* Título */
+
+
+/* TítulO */
 h1 {
   margin-bottom: 20px;
   font-weight: 600;
